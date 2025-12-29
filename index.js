@@ -8,7 +8,7 @@ import { sendEmail } from "./mailer.js";
 // CONFIG
 // =========================
 const VERIFY_TOKEN = "verify_token_test";
-const WHATSAPP_TOKEN = "BLA Food GroupEAAVvoXFK0T8BQdjkvzKFoKsZC31h2tCOVCrwEn5WQbmLZB56YPUMlgZBKZBld55lz2ZAeghbnXA366z5PFT5rKXFRsjGey1FFIsSUE3R9pmmvGi14zgqvCWRVzpvmd8fyCH75NthDZB6bISHbey2M8hizMK7e4X7xiiyF8FmfZCv7ZCK75fwjmniFxZByFwnBpEWgvgZDZD";
+const WHATSAPP_TOKEN = "EAASJRnGl1qwBQQmKydOLHgGZAZAbzmwQNRCwzH9xqmF9bMatseqas65ghJwOnyTy986fHlukrBWoyZBegwzmUpTfgbNKo99IQR8bHXjx8t4jgPlVIyzPJmrj2wZBMCm7d0waaTik3wqkwiflfa3HPuGDdO1Sh9eFq9zHM3a7IKFW7y2UMuerZCKBLjQ5XEGEjhwZDZD";
 const PHONE_NUMBER_ID = "861988820332499";
 
 const app = express();
