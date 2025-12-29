@@ -128,6 +128,7 @@ app.get("/webhook", (req, res) => {
   const challenge = req.query["hub.challenge"];
 
   if (mode === "subscribe" && token === VERIFY_TOKEN) {
+    console.log("verificado");
     return res.status(200).send(challenge);
   }
 
